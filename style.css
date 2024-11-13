@@ -1,0 +1,58 @@
+:root {
+    font-family: "Open Sans", sans-serif;
+    line-height: 150%;
+}
+
+body {
+    background-color: white;
+    background-position: cover
+}
+
+main {
+    padding: 88px 80px;
+}
+
+.separador {
+    margin: 40px 0;
+    width: 100%;
+    height: 2px;
+    background-color: #D9D9D9;
+}
+
+.separador2 {
+    margin: 40px 0 40px 0;
+    width: 100%;
+    height: 2px;
+    background-color: #D9D9D9;
+}
+
+img {
+    border-radius: 28px;
+}
+.t1 {
+    padding-bottom: 2px;
+    margin-top: 0px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;  
+    height: 22px;
+    color: #E1624F;
+}
+
+.t2 {
+    margin-bottom: 2px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;  
+    height: 22px;
+    color: #E1624F;
+}
+
+h2 {
+    margin-top: 8px;
+    margin-bottom: 40px;
+}
+
+p {
+    color: #333;
+}
