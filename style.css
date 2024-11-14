@@ -9,11 +9,12 @@
 body {
     background-color: white;
     background-position: cover
-    var(--verde);
 }
 
 main {
+    box-sizing: border-box;
     padding: 88px 80px;
+    padding-bottom: 0;
 }
 
 ol li {
@@ -100,6 +101,10 @@ p {
     color: #333;
 }
 
+.parque3 p {
+    margin-bottom: 10px;
+}
+
 .cores dt {
     font-family: "Open Sans", sans-serif;
     font-weight: bold;
@@ -116,4 +121,19 @@ p {
 
 .orange {
     color: #E95E10;
+}
+
+#ultimoP p {
+  text-align: center;
+}
+
+footer {
+    margin-top: 61px;
+    color: #333;
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+footer img {
+    vertical-align: middle;
 }
