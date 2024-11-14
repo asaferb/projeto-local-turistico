@@ -1,15 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Madimi+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto&family=Titillium+Web:wght@300;400;700&display=swap');
+
+
 :root {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", serif;
     line-height: 150%;
 }
 
 body {
     background-color: white;
     background-position: cover
+    var(--verde);
 }
 
 main {
     padding: 88px 80px;
+}
+
+ol li {
+    font-size: 32px;
+    font-weight: bold;
+    color: #1B1B1B;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.ponto {
+    color: #333;
+}
+
+.blue {
+    font-weight: bold;
+    color: #0C51A7;
+    margin-bottom: 48px;
+}
+
+.bom {
+    font-weight: bold;
+    color: #333;
+    padding-left: 0px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.center2 {
+    flex-direction: row;
+}
+
+.p1 {
+    text-align: center;
+
 }
 
 .separador {
@@ -55,4 +98,22 @@ h2 {
 
 p {
     color: #333;
+}
+
+.cores dt {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+
+.purple {
+    font-family: "Open Sans", sans-serif;
+    color: #591B98;
+}
+
+.pink {
+    color: #E5245E;
+}
+
+.orange {
+    color: #E95E10;
 }
